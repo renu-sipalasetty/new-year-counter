@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    padding:0;
+    margin: 0;
+}
+html{
+    font-size: 5rem;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(-225deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
+}
+p{
+    height: 15%;
+    width: 50%;
+    background-image: linear-gradient(180deg, #2af598 0%, #009efd 100%);
+    box-shadow: inset 0 0 10px black;
+    color: white;
+    line-height: 100px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 2px 2px #ff008c;
+
+    font-size: 55%;
+    margin-top: 0px;
+    box-shadow: 1px 1px 0px black,
+    2px 2px 0px rgb(255, 54, 4),
+    3px 3px 0px rgb(243, 247, 4),
+    4px 4px 0px rgb(30, 226, 4),
+    5px 5px 0px rgb(6, 242, 250),
+    6px 6px 0px rgb(248, 6, 196);
+}
+h1{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 70%;
+    text-shadow: 2px 2px rgb(233, 9, 39);
+    font-family: 'Dancing Script', cursive;
+
+}
+.hny{
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+    color: red;
+    text-shadow: 2px 2px white;
+    font-size: 105%;
+    font-family: 'Dancing Script', cursive;
+
+}
